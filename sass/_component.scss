@@ -268,13 +268,12 @@
     font-size: 2.25rem;
     font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    padding: 1.5rem 3rem;
-    margin-right: auto;
+    letter-spacing: 0.5px;
+    padding: 1.5rem 2rem;
 
     @media only screen and (max-width: $bp-small) {
       font-size: 1.8rem;
-      padding: 1.25rem 2rem;
+      padding: 1.25rem 1.5rem;
     }
   }
 
@@ -296,6 +295,7 @@
     font-size: 1.2rem;
     display: flex;
     vertical-align: center;
+    margin-right: auto;
   }
 
   &__icon-location {
@@ -304,7 +304,7 @@
 
   &__rating {
     background-color: var(--color-primary);
-    margin-left: 3rem;
+    margin-left: 2rem;
     color: #fff;
     padding: 0 2.25rem;
     align-self: stretch;
